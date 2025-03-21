@@ -68,10 +68,10 @@
   description: Relates to Discord's API and/or Apps (Bots). Apps includes Server Apps, User Apps, & Activities.
   color: 'fbca04'
 - name: discord:user feature
-  description: Relates to a User feature (ie: not Server specific. Think a new User setting or new DM/GroupDM features)
+  description: Relates to a User feature (ie, not Server specific. Think a new User setting or new DM/GroupDM features)
   color: 'fbca04'
 - name: discord:server feature
-  description: Relates to a Server feature (ie: features specific to Servers. Think a new Channel Type or whatever)
+  description: Relates to a Server feature (ie, features specific to Servers. Think a new Channel Type or whatever)
   color: 'fbca04'
 - name: discord:profile badges
   description: Relates to Discord profile badges

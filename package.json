@@ -1,0 +1,42 @@
+{
+  "name": "wikicord",
+  "version": "1.0.0",
+  "description": "Wikicord provides handy commands for quickly looking up information about Discord itself",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "wrangler deploy"
+  },
+  "keywords": [
+    "discord",
+    "discord-app",
+    "discord-bot"
+  ],
+  "author": "TwilightZebby",
+  "license": "SEE LICENSE IN https://github.com/TwilightZebby/license/blob/main/license.md",
+  "dependencies": {
+    "@discordjs/builders": "^1.10.1",
+    "@discordjs/collection": "^2.1.1",
+    "discord-api-types": "0.38.0-next-1740095508888",
+    "discord-interactions": "^4.1.0",
+    "itty-router": "^5.0.18",
+    "undici": "^7.3.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.3.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "cookie@<0.7.0": ">=0.7.0",
+      "esbuild@<=0.24.2": ">=0.25.0"
+    },
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp",
+      "workerd"
+    ]
+  }
+}

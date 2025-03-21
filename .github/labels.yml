@@ -1,0 +1,78 @@
+- name: blocked
+  description: Being held back for [reason]
+  color: '000000'
+- name: bug
+  description: Something isn't working
+  color: 'd73a4a'
+- name: dependencies
+  description: Pull requests that update a dependency file
+  color: '0366d6'
+- name: documentation
+  description: Improvements to documentation
+  color: '0366d6'
+- name: duplicate
+  description: This issue, pull request, or discussion already exists
+  color: 'cfd3d7'
+- name: enhancement
+  description: This pull request adds new features or improvements
+  color: 'a2eeef'
+- name: help wanted
+  description: Extra attention or research is needed
+  color: '008672'
+- name: invalid
+  description: This doesn't seem right or doesn't belong on this repository 
+  color: 'e4e669'
+- name: localization
+  description: This issue or pull request relates to localization
+  color: '0366d6'
+- name: question
+  description: This is a general question
+  color: 'd876e3'
+- name: reason:discord.js
+  description: Changes or bug fixes due to a Discord.js package update
+  color: '831AEA'
+- name: reason:discord-api-types
+  description: Changes or bug fixes due to a discord-api-types package update
+  color: '831AEA'
+- name: reason:discord
+  description: Changes or bug fixes due to a new Discord update
+  color: '831AEA'
+- name: semver:major
+  description: A breaking change
+  color: '590000'
+- name: semver:minor
+  description: New changes or features that aren't breaking
+  color: '004e63'
+- name: semver:patch
+  description: Bug fixes, string changes, or other extremely minor updates
+  color: '045700'
+- name: suggestion
+  description: This is a suggestion or feature request
+  color: '14D329'
+- name: will not fix/do
+  description: This will not be worked on
+  color: 'ffffff'
+- name: discord:new feature
+  description: Relates to a brand new Discord feature (that is publicly released)
+  color: 'fbca04'
+- name: discord:experiment
+  description: Relates to an experimental feature on Discord (either in private or A/B testing)
+  color: 'fbca04'
+- name: discord:changes
+  description: Relates to an existing Discord feature being changed or tweaked
+  color: 'fbca04'
+- name: discord:removals
+  description: Relates to a Discord feature or experiment being removed
+  color: 'fbca04'
+- name: discord:api & apps
+  description: Relates to Discord's API and/or Apps (Bots). Apps includes Server Apps, User Apps, & Activities.
+  color: 'fbca04'
+- name: discord:user feature
+  description: Relates to a User feature (ie: not Server specific. Think a new User setting or new DM/GroupDM features)
+  color: 'fbca04'
+- name: discord:server feature
+  description: Relates to a Server feature (ie: features specific to Servers. Think a new Channel Type or whatever)
+  color: 'fbca04'
+- name: discord:profile badges
+  description: Relates to Discord profile badges
+  color: 'fbca04'
